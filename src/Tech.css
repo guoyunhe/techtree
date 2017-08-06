@@ -1,0 +1,33 @@
+.Tech {
+    position: relative;
+    display: flex;
+    align-items: start;
+}
+
+.Tech__Name {
+    flex: 0 0 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 2px solid #e05544;
+    background-color: #fff;
+}
+
+.Tech__LineX {
+    position: absolute;
+    left: -20px;
+    right: 0;
+    top: 15px;
+    border-top: 2px solid #e05544;
+    z-index: -1;
+}
+
+.Tech__LineY {
+    position: absolute;
+    left: 254px;
+    top: 15px;
+    bottom: 15px;
+    border-left: 2px solid #e05544;
+    z-index: -1;
+}
