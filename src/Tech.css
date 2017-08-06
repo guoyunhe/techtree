@@ -24,10 +24,19 @@
 }
 
 .Tech__LineY {
+    display: none;
     position: absolute;
-    left: 254px;
+    left: -20px;
     top: 15px;
-    bottom: 15px;
+    bottom: -15px;
     border-left: 2px solid #e05544;
     z-index: -1;
+}
+
+.Tech .Tech .Tech__LineY {
+    display: block;
+}
+
+.Tech:last-child > .Tech__LineY {
+    display: none;
 }
