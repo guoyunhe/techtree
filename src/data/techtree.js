@@ -19,6 +19,21 @@ export default [
                     zh: '界面设计'
                 },
                 children: []
+            },
+            {
+                id: 'ux-design',
+                names: {
+                    en: 'UX Design',
+                    zh: '用户体验设计'
+                },
+                children: []
+            },
+            {
+                id: 'graphic-design',
+                names: {
+                    en: 'Graphic Design',
+                    zh: '平面设计'
+                }
             }
         ]
     },
