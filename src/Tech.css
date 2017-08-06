@@ -15,12 +15,21 @@
 }
 
 .Tech__LineX {
+    display: none;
     position: absolute;
     left: -20px;
-    right: 0;
     top: 15px;
+    width: 100px;
     border-top: 2px solid #e05544;
     z-index: -1;
+}
+
+.Tech .Tech .Tech__LineX {
+    display: block;
+}
+
+.Tech:first-child > .Tech__LineX {
+    left: -50px;
 }
 
 .Tech__LineY {
