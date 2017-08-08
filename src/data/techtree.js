@@ -45,6 +45,125 @@ export default [
         },
         children: [
             {
+                id: 'general-programming',
+                names: {
+                    en: 'General Programming',
+                    zh: '通用编程'
+                },
+                children: [
+                    {
+                        id: 'c',
+                        names: {
+                            en: 'C'
+                        },
+                        children: []
+                    },
+                    {
+                        id: 'cpp',
+                        names: {
+                            en: 'C++'
+                        },
+                        children: [
+                            {
+                                id: 'qt',
+                                names: {
+                                    en: 'Qt'
+                                }
+                            },
+                            {
+                                id: 'gtk',
+                                names: {
+                                    en: 'GTK'
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        id: 'csharp',
+                        names: {
+                            en: 'C#'
+                        },
+                        children: []
+                    },
+                    {
+                        id: 'go',
+                        names: {
+                            en: 'Go'
+                        },
+                        children: []
+                    },
+                    {
+                        id: 'java',
+                        names: {
+                            en: 'Java'
+                        },
+                        children: [
+                            {
+                                id: 'java-ee',
+                                names: {
+                                    en: 'Java EE'
+                                }
+                            },
+                            {
+                                id: 'spring',
+                                names: {
+                                    en: 'Spring Framework'
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        id: 'lua',
+                        names: {
+                            en: 'Lua'
+                        },
+                        children: []
+                    },
+                    {
+                        id: 'objective-c',
+                        names: {
+                            en: 'Objective-C'
+                        },
+                        children: []
+                    },
+                    {
+                        id: 'perl',
+                        names: {
+                            en: 'Perl'
+                        },
+                        children: []
+                    },
+                    {
+                        id: 'python',
+                        names: {
+                            en: 'Python'
+                        },
+                        children: []
+                    },
+                    {
+                        id: 'rust',
+                        names: {
+                            en: 'Rust'
+                        },
+                        children: []
+                    },
+                    {
+                        id: 'scala',
+                        names: {
+                            en: 'Scala'
+                        },
+                        children: []
+                    },
+                    {
+                        id: 'swift',
+                        names: {
+                            en: 'Swift'
+                        },
+                        children: []
+                    }
+                ]
+            },
+            {
                 id: 'web-dev',
                 names: {
                     en: 'Web Development',
@@ -123,6 +242,89 @@ export default [
                                 id: 'vue',
                                 names: {
                                     en: 'Vue'
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        id: 'php',
+                        names: {
+                            en: 'PHP'
+                        },
+                        children: [
+                            {
+                                id: 'laravel',
+                                names: {
+                                    en: 'Laravel'
+                                }
+                            },
+                            {
+                                id: 'zend',
+                                names: {
+                                    en: 'Zend Framework'
+                                }
+                            },
+                            {
+                                id: 'cakephp',
+                                names: {
+                                    en: 'CakePHP'
+                                }
+                            },
+                            {
+                                id: 'codeigniter',
+                                names: {
+                                    en: 'CodeIgniter'
+                                }
+                            },
+                            {
+                                id: 'symfony',
+                                names: {
+                                    en: 'Symfony'
+                                }
+                            },
+                            {
+                                id: 'phpunit',
+                                names: {
+                                    en: 'PHPUnit'
+                                }
+                            },
+                            {
+                                id: 'wordpress',
+                                names: {
+                                    en: 'WordPress'
+                                }
+                            },
+                            {
+                                id: 'drupal',
+                                names: {
+                                    en: 'Drupal'
+                                }
+                            },
+                            {
+                                id: 'joomla',
+                                names: {
+                                    en: 'Joomla'
+                                }
+                            },
+                            {
+                                id: 'mediawiki',
+                                names: {
+                                    en: 'MediaWiki'
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        id: 'nodejs',
+                        names: {
+                            en: 'NodeJS'
+                        },
+                        children: [
+                            {
+                                id: 'express',
+                                names: {
+                                    en: 'Express Framework',
+                                    zh: 'Express 框架'
                                 }
                             }
                         ]
