@@ -27,8 +27,11 @@ class Tech_ extends Component {
         const { active, level, depth } = this.props;
 
         return (
-            <div className={"Tech " + (active ? 'active' : '') + ' Tech--level-' + level}>
-                <div className="Tech__Name" onClick={this.toggleActive}>{names.en} {level}</div>
+            <div className={'Tech Tech--level-' + level}>
+                <div className="Tech__Name" onClick={this.toggleActive}>
+                    {names.en}
+                    <span className="Tech__level">{level}</span>
+                </div>
                 <div className="Tech__LineX" />
                 <div className="Tech__LineY" />
                 <div className="Tech__Children">

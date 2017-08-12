@@ -10,30 +10,60 @@
     margin-right: 50px;
     margin-bottom: 20px;
     padding: 5px 10px;
-    border: 2px solid #e05544;
-    background-color: #fff;
+    border: 2px solid #cccccc;
+    background-color: #ffffff;
     cursor: pointer;
     user-select: none;
+}
+
+.Tech__level {
+    background: #cccccc;
+    color: #ffffff;
+    margin-left: 4px;
+    float: right;
+    padding: 0 4px;
+    border-radius: 3px;
+    font-family: monospace;
 }
 
 .Tech--level-1 > .Tech__Name {
     border-color: #d17f45;
 }
 
+.Tech--level-1 > .Tech__Name > .Tech__level {
+    background: #d17f45;
+}
+
 .Tech--level-2 > .Tech__Name {
     border-color: #c39f46;
+}
+
+.Tech--level-2 > .Tech__Name > .Tech__level {
+    background: #c39f46;
 }
 
 .Tech--level-3 > .Tech__Name {
     border-color: #b4b546;
 }
 
+.Tech--level-3 > .Tech__Name > .Tech__level {
+    background: #b4b546;
+}
+
 .Tech--level-4 > .Tech__Name {
     border-color: #88a745;
 }
 
+.Tech--level-4 > .Tech__Name > .Tech__level {
+    background: #88a745;
+}
+
 .Tech--level-5 > .Tech__Name {
     border-color: #659944;
+}
+
+.Tech--level-5 > .Tech__Name > .Tech__level {
+    background: #659944;
 }
 
 .Tech__LineX {
@@ -42,7 +72,7 @@
     left: -20px;
     top: 15px;
     width: 100px;
-    border-top: 2px solid #e05544;
+    border-top: 2px solid #cccccc;
     z-index: -1;
 }
 
@@ -60,7 +90,7 @@
     left: -20px;
     top: 15px;
     bottom: -15px;
-    border-left: 2px solid #e05544;
+    border-left: 2px solid #cccccc;
     z-index: -1;
 }
 
