@@ -4,10 +4,6 @@ import techtree from './data/techtree'
 import Tech from './Tech'
 
 class TechTree extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div className="TechTree">

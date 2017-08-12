@@ -1,0 +1,23 @@
+.Legend {
+    display: flex;
+    padding: 0 20px;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+.Legend__item {
+    flex: 0 1 150px;
+}
+
+.Legend__item__value {
+    display: inline-block;
+    padding: 0 4px;
+    border-radius: 3px;
+    font-family: monospace;
+    color: #ffffff;
+    margin-right: 4px;
+}
+
+.Legend__item__name {
+
+}
