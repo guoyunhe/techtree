@@ -384,7 +384,7 @@ export default [
                     {
                         id: 'wp-app-dev',
                         names: {
-                            en: 'Windows Phone/Mobile App Development'
+                            en: 'Windows Phone App Development'
                         },
                         children: []
                     }
@@ -499,6 +499,28 @@ export default [
                                 }
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                id: 'game-dev',
+                names: {
+                    en: 'Game Development',
+                    zh: '游戏开发'
+                },
+                children: [
+                    {
+                        id: 'unity',
+                        names: {
+                            en: 'Unity'
+                        }
+                    },
+                    {
+                        id: 'unreal',
+                        names: {
+                            en: 'Unreal Engine',
+                            zh: '虚幻引擎'
+                        }
                     }
                 ]
             }

@@ -12,6 +12,28 @@
     padding: 5px 10px;
     border: 2px solid #e05544;
     background-color: #fff;
+    cursor: pointer;
+    user-select: none;
+}
+
+.Tech--level-1 > .Tech__Name {
+    border-color: #d17f45;
+}
+
+.Tech--level-2 > .Tech__Name {
+    border-color: #c39f46;
+}
+
+.Tech--level-3 > .Tech__Name {
+    border-color: #b4b546;
+}
+
+.Tech--level-4 > .Tech__Name {
+    border-color: #88a745;
+}
+
+.Tech--level-5 > .Tech__Name {
+    border-color: #659944;
 }
 
 .Tech__LineX {
