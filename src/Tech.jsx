@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import levelDescriptions from './data/levels';
 import { activateTech, deactivateTech } from './actions/activeTeches';
 import { isTechActive, getTechLevel } from './reducers/activeTeches';
 import './Tech.css';
@@ -24,13 +25,13 @@ class Tech_ extends Component {
 
     render() {
         const { names, children } = this.props.tech;
-        const { active, level, depth } = this.props;
+        const { active, level, levelDescription, depth } = this.props;
 
         return (
-            <div className={'Tech Tech--level-' + level}>
-                <div className="Tech__Name" onClick={this.toggleActive}>
+            <div className={'Tech'}>
+                <div className="Tech__Name" onClick={this.toggleActive} style={{borderColor: levelDescription.color}}>
                     {names.en}
-                    <span className="Tech__level">{level}</span>
+                    <span className="Tech__level" style={{backgroundColor: levelDescription.color}}>{level}</span>
                 </div>
                 <div className="Tech__LineX" />
                 <div className="Tech__LineY" />
@@ -47,7 +48,8 @@ class Tech_ extends Component {
 function mapStateToProps(state, props) {
     return {
         active: isTechActive(state, props.tech.id),
-        level: getTechLevel(state, props.tech.id)
+        level: getTechLevel(state, props.tech.id),
+        levelDescription: levelDescriptions[getTechLevel(state, props.tech.id)]
     };
 }
 

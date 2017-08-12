@@ -26,46 +26,6 @@
     font-family: monospace;
 }
 
-.Tech--level-1 > .Tech__Name {
-    border-color: #d17f45;
-}
-
-.Tech--level-1 > .Tech__Name > .Tech__level {
-    background: #d17f45;
-}
-
-.Tech--level-2 > .Tech__Name {
-    border-color: #c39f46;
-}
-
-.Tech--level-2 > .Tech__Name > .Tech__level {
-    background: #c39f46;
-}
-
-.Tech--level-3 > .Tech__Name {
-    border-color: #b4b546;
-}
-
-.Tech--level-3 > .Tech__Name > .Tech__level {
-    background: #b4b546;
-}
-
-.Tech--level-4 > .Tech__Name {
-    border-color: #88a745;
-}
-
-.Tech--level-4 > .Tech__Name > .Tech__level {
-    background: #88a745;
-}
-
-.Tech--level-5 > .Tech__Name {
-    border-color: #659944;
-}
-
-.Tech--level-5 > .Tech__Name > .Tech__level {
-    background: #659944;
-}
-
 .Tech__LineX {
     display: none;
     position: absolute;
